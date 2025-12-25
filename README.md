@@ -1,5 +1,6 @@
 # otp-validation project
 **Architecture overview**
+------------------------
 Backend
 -------
 node js has been used with controller and router files.Environment variables has been stored in .env file
