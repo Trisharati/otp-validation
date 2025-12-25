@@ -12,10 +12,12 @@ On validation api it sends a jwt token to the frontend which has been kept valid
 
 Frontend
 --------
+Frontend has been designed and coded in React js.
 Validation for email and phone fields are done in the frontend.
 After OTP submission it goes to the dashboard.
 It will auto logout after 2 minutes and also clear the token stored in localstorage.
 The dashboard is protected with the token.
 
 The blocking of the user due multiple attempts has not been implemented due to non real time OTPs.
+No registrations for the users has been done.
 auth before the roots has not been used as only page was to protect and it has been taken care in the frontend.
